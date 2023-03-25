@@ -1,0 +1,14 @@
+<section class="container w-80">
+    <div class="d-flex flex-column justify-content-center align-items-center mx-5 my-5">
+        <h1 style="font-family: Bebas Neue;">ACTIVA STUDIO E-COMMERCE</h1>
+        <h2 >¡WELCOME {{ username }}!
+            <button class="btn btn-dark" onclick="location.href='/logout'">Cerrar sesión</button>
+        </h2>
+        <h2 class="text-primary">Centro de mensajes</h2>
+        <input class="form-control my-2" type="text" id="chatMsg" placeholder="Ingresa un mensaje"/>
+        <button class="btn btn-primary mb-2" id="sendMsg">Enviar</button>
+        <div id="chatContainer" class="my-2"></div>
+</div>
+</section>
+
+{{> importScripts}}
